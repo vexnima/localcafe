@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>کافه لوکال</title>
+  <style>
+    body {
+      font-family: "Vazirmatn", sans-serif;
+      background-color: #f2f2f2;
+      color: #4e342e;
+      margin: 0;
+      padding: 0;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    header {
+      background-color: #cce3d8;
+      padding: 40px 20px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 36px;
+    }
+    header p {
+      font-size: 18px;
+      color: #5d4037;
+      margin-top: 10px;
+    }
+    section {
+      padding: 30px 20px;
+      max-width: 700px;
+      margin: auto;
+    }
+    .item {
+      display: flex;
+      align-items: center;
+      background-color: #ffffff;
+      border-radius: 12px;
+      margin: 15px 0;
+      padding: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      animation: slideUp 1s ease-in-out;
+    }
+    .item img {
+      width: 80px;
+      height: 80px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-left: 15px;
+    }
+    .item-info {
+      flex: 1;
+    }
+    .item-info h3 {
+      margin: 0 0 5px;
+      font-size: 20px;
+      color: #4e342e;
+    }
+    .item-info p {
+      margin: 0;
+      color: #6d4c41;
+    }
+    footer {
+      background-color: #cce3d8;
+      text-align: center;
+      padding: 20px;
+      margin-top: 30px;
+      color: #4e342e;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>کافه لوکال</h1>
+    <p>جایی که با حال‌وهوای صمیمی، طعم خاص محله‌مون رو حس می‌کنی ☕🌿</p>
+  </header>
+
+  <section>
+    <h2>نوشیدنی‌ها</h2>
+    <div class="item">
+      <img src="https://source.unsplash.com/80x80/?espresso" alt="اسپرسو">
+      <div class="item-info">
+        <h3>اسپرسو</h3>
+        <p>قیمت: ۴۵٬۰۰۰ تومان</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/80x80/?latte" alt="لاته">
+      <div class="item-info">
+        <h3>لاته</h3>
+        <p>قیمت: ۵۵٬۰۰۰ تومان</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/80x80/?tea" alt="چای ماسالا">
+      <div class="item-info">
+        <h3>چای ماسالا</h3>
+        <p>قیمت: ۵۰٬۰۰۰ تومان</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>غذاها</h2>
+    <div class="item">
+      <img src="https://source.unsplash.com/80x80/?sandwich" alt="ساندویچ مرغ">
+      <div class="item-info">
+        <h3>ساندویچ مرغ گریل</h3>
+        <p>قیمت: ۷۵٬۰۰۰ تومان</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/80x80/?cake" alt="کیک شکلاتی">
+      <div class="item-info">
+        <h3>کیک شکلاتی خانگی</h3>
+        <p>قیمت: ۶۵٬۰۰۰ تومان</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="https://source.unsplash.com/80x80/?croissant" alt="کروسان">
+      <div class="item-info">
+        <h3>کروسان پنیری</h3>
+        <p>قیمت: ۵۸٬۰۰۰ تومان</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    ساعت کاری: هر روز از ۱۰ صبح تا ۱۲ شب 🌙<br>
+    آدرس اینستاگرام: @localcafe
+  </footer>
+</body>
+</html>
